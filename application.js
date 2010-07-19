@@ -1,6 +1,8 @@
 var Calculator = {
 
   initialize : function() {
+    $("button, input:button, a", "#calculator").button();
+
     $('#calculator .numbers input:not(#sum)').click( function() {
         var original_result = $('#result').attr('value');
         $('#result').attr( 'value', original_result + this.value )

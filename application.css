@@ -19,7 +19,7 @@ body
 
 #calculator input#result
   { color: #ddd;
-    background: #121212;
+    background: #121212 url(jquery-ui/css/vader/images/ui-bg_gloss-wave_16_121212_500x100.png) 50% 50% repeat-x;
     font-size: 42px;
     text-align: right;
     padding: 10px;
