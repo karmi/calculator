@@ -33,7 +33,7 @@ body
     width: 30px; }
 
 #calculator input#sum
-  { width: 85px; }
+  { width: 30px; }
 
 #calculator .numbers,
 #calculator .operators
